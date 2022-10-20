@@ -4,6 +4,4 @@ function palindrome(str) {
   return reverseStr === lowerCaseInput;
 }
 
-const test = palindrome("RefeR");
-
-console.log(test);
+module.exports = palindrome
