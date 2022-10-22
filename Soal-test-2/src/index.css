@@ -2,15 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-@media (max-width: 576px) {
-  body {
-    background-position: 50px -50px;
-    background-size: 500px;
-  }
+body {
+  background-image: url("./assets/wave.svg");
+  background-repeat: no-repeat;
+  background-size: 400px;
+  background-position: 0% 0%;
+}
 
-  #cta {
-    background-image: url('../img/bg-simplify-section-mobile.svg');
-  }
+.spacer {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.svg-content {
+  background-image: url("./assets/bodywave.svg");
+  width: 100%;
 }
 
 /* Hamburger Menu */
